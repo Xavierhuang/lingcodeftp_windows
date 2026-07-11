@@ -2,9 +2,17 @@
 LingCodeFTP.exe
 *.pdb
 
+# .NET build output (Avalonia cross-platform project)
+bin/
+obj/
+publish/
+
 # Local runtime / diagnostics
 crash.log
 
 # Test scratch
 _shot_*.png
+_av_*.png
 _pid.txt
+*.zip
+*.tar.gz

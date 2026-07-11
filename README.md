@@ -1,8 +1,22 @@
-# LingCode FTP — Windows
+# LingCode FTP — Windows & Linux
 
-A Windows port of the macOS **LingCode FTP** app: a native FTP / FTPS / SFTP
-client (C# / WinForms) with a built-in **Claude chat pane** and an FTP MCP
-server (`ftp_mcp_server.py`).
+A port of the macOS **LingCode FTP** app: an FTP / FTPS / SFTP client with a
+built-in **Claude chat pane** and an FTP MCP server (`ftp_mcp_server.py`).
+
+Two builds live here:
+
+- **Windows** (this folder + `src/`) — native **C# / WinForms**, builds with the
+  bundled .NET Framework compiler (no SDK). See below.
+- **Cross-platform / Linux** (`LingCodeFTP.Avalonia/`) — an **Avalonia** rewrite of
+  the same app in modern .NET; runs on Linux **and** Windows. Build/publish with
+  the .NET 8 SDK (`dotnet publish -r linux-x64 --self-contained`).
+
+Prebuilt downloads are on the [Releases page](../../releases): Windows `.exe`
+(v1.0.0) and a self-contained Linux x86-64 tarball (v1.1.0).
+
+---
+
+The Windows (WinForms) build below mirrors the Mac app's design.
 
 It mirrors the Mac app's design:
 
