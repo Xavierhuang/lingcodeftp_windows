@@ -1,0 +1,10 @@
+# Build output (rebuild with build.ps1)
+LingCodeFTP.exe
+*.pdb
+
+# Local runtime / diagnostics
+crash.log
+
+# Test scratch
+_shot_*.png
+_pid.txt
