@@ -16,3 +16,6 @@ _av_*.png
 _pid.txt
 *.zip
 *.tar.gz
+
+# Built packages
+*.deb
